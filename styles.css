@@ -20,8 +20,9 @@ body, html {
 }
 
 .title {
-    font-size: 3em;
-    margin-bottom: 20px;
+    font-size: 2em; /* Adjusted to fit smaller screen */
+    margin-bottom: 10px;
+    text-align: center;
 }
 
 .link {
