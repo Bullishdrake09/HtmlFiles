@@ -46,3 +46,15 @@ body, html {
     color: #264653;
     transform: scale(1.05);
 }
+
+
+@media (max-width: 400px) {
+    .title {
+        font-size: 1.5em; /* Further adjust if necessary for very small screens */
+    }
+
+    .link {
+        font-size: 0.8em; /* Further adjust font size for small screens */
+        width: 180px; /* Adjust button width for small screens */
+    }
+}
