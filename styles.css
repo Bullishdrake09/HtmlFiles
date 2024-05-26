@@ -1,22 +1,27 @@
-body {
-    font-family: Arial, sans-serif;
+body, html {
     margin: 0;
     padding: 0;
+    height: 100%;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.background-container {
+    background-image: url('https://your-image-url.com/sailboat.jpg'); 
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    height: 100vh;
-    background-image: url('https://www.google.com/url?sa=i&url=https%3A%2F%2Fwallpaper.mob.org%2Fgallery%2Fsize%3D400x360%2F&psig=AOvVaw1Cu9XDEAXq64CsfysMQX2G&ust=1716815868540000&source=images&cd=vfe&opi=89978449&ved=0CBIQjRxqFwoTCPiz5NGzq4YDFQAAAAAdAAAAABAE');
-    background-size: cover;
-    background-position: center;
+    height: 100%;
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
 }
 
 .title {
     font-size: 3em;
-    margin: 20px 0;
-    color: #ffffff;
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+    margin-bottom: 20px;
 }
 
 .link {
@@ -25,8 +30,8 @@ body {
     padding: 15px 25px;
     text-decoration: none;
     color: #ffffff;
-    background-color: rgba(0, 102, 204, 0.8);
-    border: 1px solid #0066cc;
+    background-color: #2a9d8f;
+    border: 2px solid #264653;
     border-radius: 10px;
     width: 220px;
     text-align: center;
@@ -35,7 +40,7 @@ body {
 }
 
 .link:hover {
-    background-color: #ffffff;
-    color: #0066cc;
+    background-color: #e9c46a;
+    color: #264653;
     transform: scale(1.05);
 }
