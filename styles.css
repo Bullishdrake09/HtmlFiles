@@ -1,34 +1,41 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
     margin: 0;
     padding: 0;
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-image: url('https://www.google.com/url?sa=i&url=https%3A%2F%2Fwallpaper.mob.org%2Fgallery%2Fsize%3D400x360%2F&psig=AOvVaw1Cu9XDEAXq64CsfysMQX2G&ust=1716815868540000&source=images&cd=vfe&opi=89978449&ved=0CBIQjRxqFwoTCPiz5NGzq4YDFQAAAAAdAAAAABAE');
+    background-size: cover;
+    background-position: center;
 }
 
 .title {
-    font-size: 2em;
+    font-size: 3em;
     margin: 20px 0;
-    color: #333;
+    color: #ffffff;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
 }
 
 .link {
     display: block;
     margin: 10px 0;
-    padding: 10px 15px;
+    padding: 15px 25px;
     text-decoration: none;
-    color: #0066cc;
-    background-color: #e0e0e0;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    width: 200px;
+    color: #ffffff;
+    background-color: rgba(0, 102, 204, 0.8);
+    border: 1px solid #0066cc;
+    border-radius: 10px;
+    width: 220px;
     text-align: center;
-    transition: background-color 0.3s, color 0.3s;
+    transition: background-color 0.3s, color 0.3s, transform 0.3s;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
 }
 
 .link:hover {
-    background-color: #0066cc;
-    color: #fff;
+    background-color: #ffffff;
+    color: #0066cc;
+    transform: scale(1.05);
 }
